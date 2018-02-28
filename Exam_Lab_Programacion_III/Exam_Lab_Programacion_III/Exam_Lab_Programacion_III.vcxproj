@@ -122,6 +122,7 @@
   <ItemGroup>
     <ClCompile Include="Factura.cpp" />
     <ClCompile Include="Fecha.cpp" />
+    <ClCompile Include="maincpp.cpp" />
     <ClCompile Include="Producto.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

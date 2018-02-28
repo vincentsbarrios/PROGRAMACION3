@@ -3,11 +3,11 @@
 
 using namespace std;
 
-Fecha::Fecha()
+Fecha::Fecha(int dia,int mes,int anio)
 {
-	dia = 1;
-	mes = 1;
-	anio = 2018;
+	setDia(dia);
+	setMes(mes);
+	setAnio(anio);
 }
 
 

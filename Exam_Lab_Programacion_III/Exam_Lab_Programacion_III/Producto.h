@@ -17,6 +17,7 @@ public:
 	void setNombre(string);
 	void setPrecio(float);
 	void setSig(Producto *);
+	void sumaTotal();
 
 	int getCantidad();
 	string getNombre();

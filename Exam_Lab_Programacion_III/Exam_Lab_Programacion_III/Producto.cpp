@@ -8,6 +8,22 @@ Producto::Producto(int c, string n, float p, Producto *v)
 	nombre = n;
 	precio = p;
 	sig = v;
+
+	Producto *temp;
+	temp->setCantidad(c);
+	temp->setNombre(n);
+	temp->setPrecio(p);
+		
+	if (primero == NULL) {
+		
+	}
+
+}
+
+void Producto::sumaTotal() {
+	if (NULL) {
+
+	}
 }
 
 void Producto::setCantidad(int _cantidad) {
@@ -35,4 +51,7 @@ float Producto::getPrecio() {
 Producto *Producto::getSig() {
 	return sig;
 }
+
+
+
 
